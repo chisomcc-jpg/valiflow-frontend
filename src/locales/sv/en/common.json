@@ -1,0 +1,16 @@
+{
+  "dashboard": "Dashboard",
+  "invoices": "Invoices",
+  "customers": "Customers",
+  "settings": "Settings",
+  "logout": "Logout",
+  "login": "Login",
+  "search": "Search",
+  "add": "Add",
+  "edit": "Edit",
+  "delete": "Delete",
+  "save": "Save",
+  "cancel": "Cancel",
+  "status": "Status",
+  "loading": "Loading..."
+}

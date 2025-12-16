@@ -1,0 +1,16 @@
+{
+  "dashboard": "Instrumentpanel",
+  "invoices": "Fakturor",
+  "customers": "Kunder",
+  "settings": "Inställningar",
+  "logout": "Logga ut",
+  "login": "Logga in",
+  "search": "Sök",
+  "add": "Lägg till",
+  "edit": "Redigera",
+  "delete": "Ta bort",
+  "save": "Spara",
+  "cancel": "Avbryt",
+  "status": "Status",
+  "loading": "Läser in..."
+}

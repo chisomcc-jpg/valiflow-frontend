@@ -1,0 +1,30 @@
+
+> frontend@0.0.0 build /Users/chidi/frontend
+> vite build
+
+vite v7.2.4 building client environment for production...
+transforming...
+✓ 3653 modules transformed.
+✗ Build failed in 6.87s
+error during build:
+src/pages/BureauDashboard/BureauNotifications.jsx (14:9): "NotificationService" is not exported by "src/services/api.ts", imported by "src/pages/BureauDashboard/BureauNotifications.jsx".
+file: /Users/chidi/frontend/src/pages/BureauDashboard/BureauNotifications.jsx:14:9
+
+12: import { Button } from "@/components/ui/button";
+13: import { useAuth } from "@/context/AuthContext";
+14: import { NotificationService } from "@/services/api";
+             ^
+15: 
+16: const VF = {
+
+    at getRollupError (file:///Users/chidi/frontend/node_modules/.pnpm/rollup@4.53.3/node_modules/rollup/dist/es/shared/parseAst.js:401:41)
+    at error (file:///Users/chidi/frontend/node_modules/.pnpm/rollup@4.53.3/node_modules/rollup/dist/es/shared/parseAst.js:397:42)
+    at Module.error (file:///Users/chidi/frontend/node_modules/.pnpm/rollup@4.53.3/node_modules/rollup/dist/es/shared/node-entry.js:16956:16)
+    at Module.traceVariable (file:///Users/chidi/frontend/node_modules/.pnpm/rollup@4.53.3/node_modules/rollup/dist/es/shared/node-entry.js:17412:29)
+    at ModuleScope.findVariable (file:///Users/chidi/frontend/node_modules/.pnpm/rollup@4.53.3/node_modules/rollup/dist/es/shared/node-entry.js:15076:39)
+    at FunctionScope.findVariable (file:///Users/chidi/frontend/node_modules/.pnpm/rollup@4.53.3/node_modules/rollup/dist/es/shared/node-entry.js:5649:38)
+    at FunctionBodyScope.findVariable (file:///Users/chidi/frontend/node_modules/.pnpm/rollup@4.53.3/node_modules/rollup/dist/es/shared/node-entry.js:5649:38)
+    at FunctionScope.findVariable (file:///Users/chidi/frontend/node_modules/.pnpm/rollup@4.53.3/node_modules/rollup/dist/es/shared/node-entry.js:5649:38)
+    at FunctionBodyScope.findVariable (file:///Users/chidi/frontend/node_modules/.pnpm/rollup@4.53.3/node_modules/rollup/dist/es/shared/node-entry.js:5649:38)
+    at BlockScope.findVariable (file:///Users/chidi/frontend/node_modules/.pnpm/rollup@4.53.3/node_modules/rollup/dist/es/shared/node-entry.js:5649:38)
+ ELIFECYCLE  Command failed with exit code 1.

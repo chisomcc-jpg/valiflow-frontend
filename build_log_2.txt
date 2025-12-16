@@ -1,0 +1,31 @@
+
+> frontend@0.0.0 build /Users/chidi/frontend
+> vite build
+
+vite v7.2.4 building client environment for production...
+transforming...
+src/pages/Dashboard/Overview.jsx (68:25): "getCompany" is not exported by "src/services/companyService.ts", imported by "src/pages/Dashboard/Overview.jsx".
+✓ 3653 modules transformed.
+✗ Build failed in 6.44s
+error during build:
+src/pages/Dashboard/Overview.jsx (22:9): "useInvoiceSSE" is not exported by "src/hooks/useInvoiceSSE.js", imported by "src/pages/Dashboard/Overview.jsx".
+file: /Users/chidi/frontend/src/pages/Dashboard/Overview.jsx:22:9
+
+20: // Hooks
+21: import { useCompanyKpiSSE } from "@/hooks/useCompanyKpiSSE";
+22: import { useInvoiceSSE } from "@/hooks/useInvoiceSSE";
+             ^
+23: 
+24: // Components
+
+    at getRollupError (file:///Users/chidi/frontend/node_modules/.pnpm/rollup@4.53.3/node_modules/rollup/dist/es/shared/parseAst.js:401:41)
+    at error (file:///Users/chidi/frontend/node_modules/.pnpm/rollup@4.53.3/node_modules/rollup/dist/es/shared/parseAst.js:397:42)
+    at Module.error (file:///Users/chidi/frontend/node_modules/.pnpm/rollup@4.53.3/node_modules/rollup/dist/es/shared/node-entry.js:16956:16)
+    at Module.traceVariable (file:///Users/chidi/frontend/node_modules/.pnpm/rollup@4.53.3/node_modules/rollup/dist/es/shared/node-entry.js:17412:29)
+    at ModuleScope.findVariable (file:///Users/chidi/frontend/node_modules/.pnpm/rollup@4.53.3/node_modules/rollup/dist/es/shared/node-entry.js:15076:39)
+    at FunctionScope.findVariable (file:///Users/chidi/frontend/node_modules/.pnpm/rollup@4.53.3/node_modules/rollup/dist/es/shared/node-entry.js:5649:38)
+    at FunctionBodyScope.findVariable (file:///Users/chidi/frontend/node_modules/.pnpm/rollup@4.53.3/node_modules/rollup/dist/es/shared/node-entry.js:5649:38)
+    at Identifier.bind (file:///Users/chidi/frontend/node_modules/.pnpm/rollup@4.53.3/node_modules/rollup/dist/es/shared/node-entry.js:5423:40)
+    at CallExpression.bind (file:///Users/chidi/frontend/node_modules/.pnpm/rollup@4.53.3/node_modules/rollup/dist/es/shared/node-entry.js:2813:23)
+    at CallExpression.bind (file:///Users/chidi/frontend/node_modules/.pnpm/rollup@4.53.3/node_modules/rollup/dist/es/shared/node-entry.js:12123:15)
+ ELIFECYCLE  Command failed with exit code 1.

@@ -1,0 +1,7 @@
+{
+  "invoiceNumber": "Fakturanummer",
+  "date": "Datum",
+  "amount": "Belopp",
+  "status": "Status",
+  "invoices": "Fakturor"
+}

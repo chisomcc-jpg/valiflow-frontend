@@ -1,0 +1,7 @@
+{
+  "dashboard": "Dashboard",
+  "welcomeMessage": "Welcome to the dashboard",
+  "totalCustomers": "Total Customers",
+  "totalInvoices": "Total Invoices",
+  "recentActivity": "Recent Activity"
+}

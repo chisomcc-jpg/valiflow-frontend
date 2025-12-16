@@ -1,0 +1,7 @@
+{
+  "invoiceNumber": "Invoice Number",
+  "date": "Date",
+  "amount": "Amount",
+  "status": "Status",
+  "invoices": "Invoices"
+}

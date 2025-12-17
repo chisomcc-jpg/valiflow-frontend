@@ -22,8 +22,8 @@ export default function Home() {
       <header className="pt-40 pb-24 px-6 text-center relative overflow-hidden bg-gradient-to-b from-[#050C22] via-[#071330] to-[#050C22]">
         {/* BACKGROUND GLOW */}
         <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-blue-500/20 blur-[150px]" />
-          <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-emerald-400/10 blur-[120px]" />
+          <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-blue-500/20 blur-[32px]" />
+          <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-emerald-400/10 blur-[32px]" />
         </div>
 
         <div className="relative max-w-4xl mx-auto">

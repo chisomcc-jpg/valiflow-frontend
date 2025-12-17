@@ -19,9 +19,9 @@ export default function Product() {
   return (
     <div className="bg-[#050C22] text-white min-h-screen">
       {/* BACKGROUND GLOW – samma känsla som Home */}
-      <div className="pointer-events-none fixed inset-0 -z-10">
-        <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-blue-500/20 blur-[150px]" />
-        <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-emerald-400/10 blur-[120px]" />
+      <div className="pointer-events-none absolute inset-0 -z-10">
+        <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-blue-500/20 blur-[32px]" />
+        <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-emerald-400/10 blur-[32px]" />
       </div>
 
       <main className="relative z-10 mx-auto max-w-6xl px-6 pb-24 pt-32">

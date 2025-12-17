@@ -67,8 +67,8 @@ export default function PilotSignup() {
         <div className="min-h-screen bg-[#050C22] text-white flex flex-col items-center justify-center p-6 relative overflow-hidden">
 
             {/* Background Ambience */}
-            <div className="absolute top-[-20%] left-[-10%] w-[600px] h-[600px] bg-blue-500/10 blur-[100px] pointer-events-none" />
-            <div className="absolute bottom-[-20%] right-[-10%] w-[600px] h-[600px] bg-emerald-500/10 blur-[100px] pointer-events-none" />
+            <div className="absolute top-[-20%] left-[-10%] w-[600px] h-[600px] bg-blue-500/10 blur-[32px] pointer-events-none" />
+            <div className="absolute bottom-[-20%] right-[-10%] w-[600px] h-[600px] bg-emerald-500/10 blur-[32px] pointer-events-none" />
 
             {/* Header */}
             <div className="absolute top-0 left-0 w-full p-6 flex justify-between items-center z-10">

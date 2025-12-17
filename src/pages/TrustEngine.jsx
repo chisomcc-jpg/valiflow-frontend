@@ -15,9 +15,9 @@ export default function TrustEngine() {
     return (
         <div className="min-h-screen bg-[#050C22] text-white">
             {/* BACKGROUND GLOW */}
-            <div className="pointer-events-none fixed inset-0 -z-10">
-                <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-blue-500/10 blur-[150px]" />
-                <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-emerald-400/05 blur-[120px]" />
+            <div className="pointer-events-none absolute inset-0 -z-10">
+                <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-blue-500/10 blur-[32px]" />
+                <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-emerald-400/05 blur-[32px]" />
             </div>
 
             <main className="relative z-10 mx-auto max-w-5xl px-6 pt-32 pb-32">

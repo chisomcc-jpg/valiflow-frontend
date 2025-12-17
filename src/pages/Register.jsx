@@ -147,7 +147,7 @@ export default function Register() {
         style={{ background: VF.navy }}
       >
         {/* glowing element */}
-        <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-blue-400/25 blur-[140px] rounded-full -translate-x-1/2 -translate-y-1/2" />
+        <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-blue-400/25 blur-[32px] rounded-full -translate-x-1/2 -translate-y-1/2" />
 
         {/* wave bottom gradient */}
         <div className="absolute bottom-0 left-0 right-0 h-[220px] bg-gradient-to-t from-blue-300/20 to-transparent opacity-70 rounded-t-[90px]" />
